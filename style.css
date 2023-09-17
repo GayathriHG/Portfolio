@@ -117,32 +117,25 @@ margin:20px 0px;
 .about-section-description li{
     margin-bottom:5px;
 }
+/*contact me */
 
-/*contact section*/
 .contact-section{
-    background-color: #572a8f;
-    padding:40px;
-    color:var(--primary);
+    background-color: bisque;
+    padding:20px;
+    color:#4a2479;
     text-align:center;
+    font-weight:200px;
 }
-.contact-section h4 {
-   
-    font-weight:900;
-    font-size:30px ;
-    margin:20px 0px;
+.form{
+    text-align:center;
+    padding:5px 10px;
+
 }
 
-.contact-section h4 span{
-    color:var(--primary)
-}
-.contact-section form  input{
-    padding:5px 10px;
-    outline:none;
-    width:400px;
-    border:none;
-    background-color: var(--primary);
-    border-radius:3px;
-    margin-bottom:10px;
-}
+/*media query*/
+
+
+
+
 
 
