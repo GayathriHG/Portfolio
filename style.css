@@ -1,5 +1,7 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Mooli&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 
 
   :root{
@@ -8,29 +10,36 @@
 }
 
   *{
-    font-family: 'Poppins', sans-serif;
-    padding:0px;
+     padding:0px;
     margin:0px;
     box-sizing:border-box;
+
     body{
-        font-family: 'Poppins', sans-serif; 
+        font-family: 'Mooli', sans-serif;    
     }
 }
 /*header*/
 header{
-    background:var(--dark-primary);
-    padding:10px;
+    background:#22003d;
+    padding:20px 20px;
     color:antiquewhite;
     display:flex;
     justify-content: space-around;
     align-items:center;
 }
+
 /*logo stylling*/
 .logo{
-font-weight: bold;
+font-weight:bold;
 letter-spacing: 0.5px;
 color:var(--primary);
 
+}
+img{
+   padding:80px;
+    display:flex;
+    justify-content:center;
+    
 }
 /*list stylling*/
 ul{
@@ -49,10 +58,10 @@ ul li a{
 }
 /*download button*/
 header button{
-    padding:5px 5px;
+    padding:10px 20px;
     border-radius:30px;
     font-weight:bold ;
-    background-color: var(--dark-primary);
+    background-color:#2d0055;
     border:1px solid;
     color:var(--primary);
 
@@ -61,20 +70,20 @@ header button{
 /*hovering header and button*/
 header button:hover{
     cursor:pointer;
-    background-color: var(--primary);
+    background-color:#82498c;
     color:var(--dark-primary);
 }
 ul li a:hover{
-    color:var(--dark-primary);
+    color:#82498c;
     
 }
 /*hero section*/
 section.hero-section{
-    background:#572a8f;
+    background:#29004e;
     color:var(--primary);
     display:flex;
     align-items:center;
-    padding:10px 20px;
+    padding-left:120px;
 }
 .hero-section__title{
     font-size:40px;
@@ -86,33 +95,45 @@ margin:20px 0px;
 }
 .social-icons li{
     margin-right:10px;
+    
 }
+.socail-icons li :hover{
+    background-color: #82498c;
+}
+
+
+
 /*about me section*/
 
 .about-section{
-    background-color:#b0b4f3;
-    color:var(--dark-primary);
-    padding:70px;
+    background-color:#320c59;
+    color:var(--primary);
+    
     display:flex;
     justify-content:center;
     align-items:center;
 }
 .about-section-description{
     margin-left:70px;
+    max-width: 600px;
     
 }
 .about-section img{
     border-radius:50%;
-    width:400px;
+    width:450px;
+    height:450px;
 }
 .about-section-description{
-    font-size:30px;
-    max-width:500px;
+    font-size:40px;
+    max-width:700px;
     
 }
 .about-section-description ol{
     list-style:none;
     margin-top:10px;
+    font-size:30px;
+    color:antiquewhite
+    
 }
 .about-section-description li{
     margin-bottom:5px;
@@ -120,19 +141,54 @@ margin:20px 0px;
 /*contact me */
 
 .contact-section{
-    background-color: bisque;
-    padding:20px;
-    color:#4a2479;
+    background-color: #7764a6;
+    padding:40px;
+    color:white;
     text-align:center;
-    font-weight:200px;
 }
-.form{
-    text-align:center;
+.contact-section form div > input{
     padding:5px 10px;
+    outline-color:none;
+    width:400px;
+    border-radius:5%;
+    margin-bottom:10px;
+}
+.contact-section form div > textarea{
+    padding:5px 10px;
+    outline-color:none;
+    width:400px;
+    border-radius:5%;
+    margin-bottom:10px;
+    resize:none;
+}
+.contact-section h4{
+   font-size:30px;
+   margin:20px 0px;
+   font-weight:900; 
+}
 
+.btn{
+    padding:10px 20px;
+    border-radius:30px;
+    font-weight:bold ;
+    background-color:#2d0055;
+    border:1px solid;
+    color:var(--primary);
+}
+.btn:hover{
+    cursor:pointer;
+    background-color:#82498c;
+    color:var(--dark-primary);
+}
+footer{
+    background-color: #82498c;
+    color:antiquewhite;
+    text-align:center;
+    padding:20px 0px;
 }
 
 /*media query*/
+
 
 
 
