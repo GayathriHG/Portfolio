@@ -1,5 +1,6 @@
-# Portfolio
-A Responsive portfolio created using HTML and CSS which can also be downloaded .
+# Project Title
+
+Portfolio
 
 ## Table of Contents
 - [Project Title](#project-title)
@@ -8,44 +9,46 @@ A Responsive portfolio created using HTML and CSS which can also be downloaded .
 - [Internship](#internship)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Acknowledgments](#acknowledgments)
-- [Connect with me](#Connect-with-Me)
+- [License](#license)
+
 
 ## Description
 
-I have created a portfolio using HTML and CSS.This task was assigned by [Mr. Anbuselvan Rocky](https://instagram.com/anbuselvanrocky) as part of the internship. 
+I have created a simple portfolio using HTML and CSS.
 
 ## Demo
-You can access it through the following link: [view site](https://gayathrihg.github.io/Portfolio/)
+
+[You can see the live demo here](https://gayathrihg.github.io/Portfolio/)
 
 ## Internship
 
-This internship is provided by [CyberDude Networks Pvt. Ltd.](https://youtube.com/cyberdudenetworks) as part of the 6-Month Free Internship program, a skill development initiative organized to enhance participants' skills. Mentoring was provided by [Mr. Anbuselvan Rocky](https://instagram.com/anbuselvanrocky). For more information, [you can contact CyberDude Networks here](https://cyberdudenetworks.com).
+This internship is provided by [CyberDude Networks Pvt. Ltd.](https://youtube.com/cyberdudenetworks), a skill development initiative organized to enhance participants' skills. Mentoring was provided by [Mr. Anbuselvan Rocky](https://instagram.com/anbuselvanrocky). For more information, [you can contact CyberDude Networks here](https://cyberdudenetworks.com).
 
 ## Technologies Used
 
-- HTML
-- CSS
+HTML5
+CSS3
 
-### Key Features and Functionality
+## Features
 
-1.  Used basic HTML and CSS to create this portfolio and give hover effects and also learnt how to use flex and create a form.
+This project was done to get familiar with creating a portfolio , using navbar ,giving hover effect.
 
-## Usage
--You can access it through the following link: [view site.](https://gayathrihg.github.io/Portfolio/)
+## License
 
-## Contributing
-- To contribute or to suggest improvements to be done you can connect with me.
+MIT
 
-## Acknowledgments
-- pictures used in this portfolio was taken from pinterest.
 
-### Connect with Me
-- Connect with me on LinkedIn: [Gayathri H G](www.linkedin.com/in/gayathri-h-g-2151361ba)
-- Follow me on Instagram: [gayatrigangadhar](https://www.instagram.com/)
-- Email: [gai388926@gmail.com](gai388926@gmail.com)
+---
+##Social Media
+[LinkdIn](www.linkedin.com/in/gayathri-h-g-2151361ba)
+
+
+
+
+
+
+
+
 
 
 
